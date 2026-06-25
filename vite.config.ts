@@ -11,6 +11,9 @@ const loadedDevEnv = loadEnv("development", process.cwd(), "");
 const ncpmsDevProxyApiKey = readNcpmsDevProxyApiKey({ ...loadedDevEnv, ...process.env });
 
 export default defineConfig({
+  nitro: {
+    preset: "vercel",
+  },
   tanstackStart: {
     server: { entry: "server" },
   },
