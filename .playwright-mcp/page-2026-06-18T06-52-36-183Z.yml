@@ -1,0 +1,106 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /farmer
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+      - link "관리자" [ref=e25] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e26]
+        - text: 관리자
+    - generic [ref=e28]:
+      - generic [ref=e29]: 데이터 출처
+      - text: 기상청 · NCPMS · 농업기상 · 농기계임대
+  - generic [ref=e30]:
+    - banner [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "병해충 사진검색" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 작물 분류와 사진을 기준으로 병·해충·잡초 상세정보를 조회합니다.
+        - link "농가 대시보드" [ref=e36] [cursor=pointer]:
+          - /url: /farmer
+          - img [ref=e37]
+          - text: 농가 대시보드
+    - main [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - textbox "병해충 또는 잡초 이름 검색" [ref=e47]
+          - button "검색" [ref=e100] [cursor=pointer]:
+            - img
+            - text: 검색
+          - button "초기화" [ref=e101] [cursor=pointer]:
+            - img
+            - text: 초기화
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - heading "1. 작물 분류" [level=2] [ref=e51]
+              - generic [ref=e52]: "6"
+            - generic [ref=e75]:
+              - button "식량작물" [active] [ref=e76]:
+                - generic [ref=e79]: 식량작물
+                - img [ref=e102]
+              - button "과수" [ref=e80]:
+                - generic [ref=e83]: 과수
+              - button "채소" [ref=e84]:
+                - generic [ref=e87]: 채소
+              - button "화훼" [ref=e88]:
+                - generic [ref=e91]: 화훼
+              - button "특용작물" [ref=e92]:
+                - generic [ref=e95]: 특용작물
+              - button "잡초" [ref=e96]:
+                - generic [ref=e99]: 잡초
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - heading "2. 작물" [level=2] [ref=e58]
+              - generic [ref=e59]: "10"
+            - generic [ref=e60]:
+              - generic [ref=e104]:
+                - button "감자" [ref=e105]:
+                  - generic [ref=e108]: 감자
+                - button "강낭콩" [ref=e109]:
+                  - generic [ref=e112]: 강낭콩
+                - button "고구마" [ref=e113]:
+                  - generic [ref=e116]: 고구마
+                - button "귀리" [ref=e117]:
+                  - generic [ref=e120]: 귀리
+                - button "기장" [ref=e121]:
+                  - generic [ref=e124]: 기장
+                - button "녹두" [ref=e125]:
+                  - generic [ref=e128]: 녹두
+                - button "논벼" [ref=e129]:
+                  - generic [ref=e132]: 논벼
+                - button "동부" [ref=e133]:
+                  - generic [ref=e136]: 동부
+                - button "밀" [ref=e137]:
+                  - generic [ref=e140]: 밀
+                - button "보리" [ref=e141]:
+                  - generic [ref=e144]: 보리
+              - button "더 보기" [ref=e145] [cursor=pointer]:
+                - img
+                - text: 더 보기
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - heading "3. 사진 후보" [level=2] [ref=e63]
+              - generic [ref=e64]: "0"
+            - generic [ref=e65]: 작물 또는 잡초 분류를 선택하면 사진 후보가 표시됩니다.
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - paragraph [ref=e74]: 사진 후보를 선택하면 상세정보가 표시됩니다.

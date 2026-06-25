@@ -1,0 +1,187 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+      - link "지역 운영" [ref=e25] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e26]
+        - text: 지역 운영
+    - generic [ref=e31]:
+      - generic [ref=e32]: 데이터 출처
+      - text: 기상청 · NCPMS · 농업기상 · 농기계임대
+  - generic [ref=e33]:
+    - banner [ref=e34]:
+      - generic [ref=e36]:
+        - heading "팜맵 농장 등록" [level=1] [ref=e37]
+        - paragraph [ref=e38]: 농림축산식품부·EPIS FarmOpenAPI WMS/WFS 기반 필지 선택
+    - main [ref=e39]:
+      - generic [ref=e41]:
+        - complementary [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - img [ref=e46]
+              - generic [ref=e49]:
+                - paragraph [ref=e50]: FarmMap Registration
+                - heading "농장 정보" [level=2] [ref=e51]
+            - paragraph [ref=e52]: 주소로 이동하거나 지도에서 팜맵 필지를 먼저 선택한 뒤 농장 정보를 입력하세요.
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic [ref=e56]: 농장 이름
+              - 'textbox "예: 김제 만경 1농장" [ref=e57]'
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: 농장 주소
+                - generic [ref=e61]: 전북 주소만 등록할 수 있습니다.
+              - generic [ref=e62]:
+                - textbox "읍·면·동 또는 지번" [ref=e63]
+                - button "주소 검색" [ref=e64]:
+                  - img [ref=e65]
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e71]: 주요 작물
+                - combobox [ref=e72]:
+                  - option "벼" [selected]
+                  - option "고추"
+                  - option "마늘"
+                  - option "양파"
+                  - option "사과"
+                  - option "배"
+                  - option "포도"
+                  - option "감자"
+              - generic [ref=e73]:
+                - generic [ref=e75]: 생육 단계
+                - combobox [ref=e76]:
+                  - option "파종/정식" [selected]
+                  - option "생육"
+                  - option "개화"
+                  - option "착과"
+                  - option "수확 전"
+                  - option "수확"
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: 재배 면적
+                - generic [ref=e80]: 선택한 팜맵 필지 면적이 자동 반영됩니다.
+              - generic [ref=e81]:
+                - spinbutton [ref=e82]: "1000"
+                - generic: ㎡
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - heading "선택 필지" [level=3] [ref=e88]
+              - paragraph [ref=e89]: 지도에서 초록색 경계를 클릭해 필지를 선택하세요.
+          - generic [ref=e90]:
+            - button "취소" [ref=e91]
+            - button "선택 필지로 농장 등록" [disabled] [ref=e92]
+        - main [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - heading "팜맵 필지 선택" [level=3] [ref=e99]
+                  - generic [ref=e100]: 지도 탐색 가능
+                - paragraph [ref=e101]: 지도를 이동하거나 주소를 검색해 팜맵 필지 경계를 선택하세요.
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - img [ref=e104]
+                  - button "50m" [disabled] [ref=e110]
+                  - button "100m" [disabled] [ref=e111]
+                  - button "300m" [disabled] [ref=e112]
+                  - button "500m" [disabled] [ref=e113]
+                  - button "1000m" [disabled] [ref=e114]
+                - button "재조회" [disabled] [ref=e115]:
+                  - img [ref=e116]
+                  - text: 재조회
+            - generic [ref=e121]:
+              - application "농장 필지 선택 지도" [ref=e122]:
+                - generic [ref=e140]:
+                  - generic:
+                    - generic:
+                      - img [ref=e141]
+                      - img [ref=e142]
+                      - img [ref=e143]
+                      - img [ref=e144]
+                      - img [ref=e145]
+                      - img [ref=e146]
+                      - img [ref=e147]
+                      - img [ref=e148]
+                      - img [ref=e149]
+                      - img [ref=e150]
+                      - img [ref=e151]
+                      - img [ref=e152]
+                      - img [ref=e153]
+                      - img [ref=e154]
+                      - img [ref=e155]
+                      - img [ref=e156]
+                      - img [ref=e157]
+                      - img [ref=e158]
+                      - img [ref=e159]
+                      - img [ref=e160]
+                    - generic:
+                      - img [ref=e161]
+                      - img [ref=e162]
+                      - img [ref=e163]
+                      - img [ref=e164]
+                      - img [ref=e165]
+                      - img [ref=e166]
+                      - img [ref=e167]
+                      - img [ref=e168]
+                      - img [ref=e169]
+                      - img [ref=e170]
+                      - img [ref=e171]
+                      - img [ref=e172]
+                      - img [ref=e173]
+                      - img [ref=e174]
+                      - img [ref=e175]
+                      - img [ref=e176]
+                      - img [ref=e177]
+                      - img [ref=e178]
+                      - img [ref=e179]
+                      - img [ref=e180]
+                    - img [ref=e181]
+                    - img [ref=e182]
+                  - generic:
+                    - img [ref=e184] [cursor=pointer]
+                    - img [ref=e186] [cursor=pointer]
+                    - img [ref=e188] [cursor=pointer]
+                    - img [ref=e190] [cursor=pointer]
+                    - img [ref=e192] [cursor=pointer]
+                    - img [ref=e195]
+                    - img [ref=e197] [cursor=pointer]
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+                    - text: 팜맵 OpenAPI
+                    - generic: 필지 0개
+                - generic [ref=e123]:
+                  - button "항공" [pressed] [ref=e124]:
+                    - img [ref=e125]
+                    - text: 항공
+                  - button "일반" [ref=e131]:
+                    - img [ref=e132]
+                    - text: 일반
+                  - button "팜맵 경계" [pressed] [ref=e134]:
+                    - img [ref=e135]
+                    - text: 팜맵 경계
+              - generic:
+                - img
+                - text: 초록색 필지 경계를 선택하거나 지도 위치를 클릭하세요.
+              - generic: Esri World Imagery | 농림축산식품부 · EPIS 팜맵
+            - paragraph [ref=e139]: 팜맵 경계는 농경지 분석 참고용이며 법적 측량 경계가 아닙니다.

@@ -1,0 +1,59 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading "병해충 사진검색" [level=1] [ref=e7]
+        - paragraph [ref=e8]: 작물 분류와 사진을 기준으로 병·해충·잡초 상세정보를 조회합니다.
+      - link "농가 대시보드" [ref=e9] [cursor=pointer]:
+        - /url: /farmer
+        - img [ref=e10]
+        - text: 농가 대시보드
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - img [ref=e17]
+          - textbox "병해충 또는 잡초 이름 검색" [disabled] [ref=e20]
+        - button "검색" [disabled]:
+          - img
+          - text: 검색
+        - button "초기화" [disabled]:
+          - img
+          - text: 초기화
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - heading "1. 작물 분류" [level=2] [ref=e24]
+            - generic [ref=e25]: "0"
+          - img [ref=e27]
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - heading "2. 작물" [level=2] [ref=e31]
+            - generic [ref=e32]: "0"
+          - generic [ref=e33]: 먼저 작물 분류를 선택하세요.
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - heading "3. 사진 후보" [level=2] [ref=e36]
+            - generic [ref=e37]: "0"
+          - generic [ref=e38]: 작물 또는 잡초 분류를 선택하면 사진 후보가 표시됩니다.
+        - generic [ref=e39]:
+          - img [ref=e40]
+          - paragraph [ref=e47]: 사진 후보를 선택하면 상세정보가 표시됩니다.
+  - navigation [ref=e48]:
+    - generic [ref=e49]:
+      - link "홈" [ref=e50] [cursor=pointer]:
+        - /url: /farmer
+        - img [ref=e51]
+        - text: 홈
+      - link "농장 등록" [ref=e54] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e55]
+        - text: 농장 등록
+      - link "알림" [ref=e58] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e59]
+        - text: 알림
+      - link "관리자" [ref=e62] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e63]
+        - text: 관리자

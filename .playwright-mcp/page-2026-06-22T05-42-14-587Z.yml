@@ -1,0 +1,181 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+      - link "지역 운영" [ref=e25] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e26]
+        - text: 지역 운영
+    - generic [ref=e31]:
+      - generic [ref=e32]: 데이터 출처
+      - text: 기상청 · NCPMS · 농업기상 · 농기계임대
+  - generic [ref=e33]:
+    - banner [ref=e34]:
+      - generic [ref=e36]:
+        - heading "농기계 추천 및 임대 안내" [level=1] [ref=e37]
+        - paragraph [ref=e38]: 김제 필터검증 농장 · 벼 · 생육
+    - main [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e43]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - text: 현장 작업 기준
+            - heading "필요한 장비부터 확인하고, 가까운 사업소에 문의하세요." [level=2] [ref=e51]:
+              - text: 필요한 장비부터 확인하고,
+              - text: 가까운 사업소에 문의하세요.
+            - generic [ref=e52]:
+              - generic [ref=e53]: 방제
+              - generic [ref=e54]: 경운/정지
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - generic [ref=e58]: "01"
+                - generic [ref=e59]:
+                  - generic [ref=e60]: 트랙터
+                  - generic [ref=e61]: 보유 사업소 확인
+              - img [ref=e62]
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]: "02"
+                - generic [ref=e68]:
+                  - generic [ref=e69]: 관수 펌프
+                  - generic [ref=e70]: 보유 사업소 확인
+              - img [ref=e71]
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - generic [ref=e76]: "03"
+                - generic [ref=e77]:
+                  - generic [ref=e78]: SS기
+                  - generic [ref=e79]: 보유 사업소 확인
+              - img [ref=e80]
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]: "04"
+                - generic [ref=e86]:
+                  - generic [ref=e87]: 배수 펌프
+                  - generic [ref=e88]: 보유 사업소 확인
+              - img [ref=e89]
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - img [ref=e94]
+            - generic [ref=e98]:
+              - strong [ref=e99]: 샘플 데이터
+              - text: 보유 대수는 실시간 대여 가능 수량이 아닙니다.
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - text: 최종 임대 여부는 사업소 확인
+        - generic [ref=e104]:
+          - img [ref=e105]
+          - generic [ref=e107]: 농기계 임대 API 호출에 실패해 샘플 데이터를 사용했습니다.
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]: RENTAL OFFICES
+              - heading "가까운 임대사업소" [level=2] [ref=e112]
+            - generic [ref=e113]:
+              - generic [ref=e210]: 트랙터
+              - text: 검색 결과
+              - strong [ref=e114]: "1"
+              - text: 곳
+          - generic [ref=e115]:
+            - group "직선거리" [ref=e116]:
+              - generic [ref=e117]:
+                - img [ref=e118]
+                - text: 직선거리
+              - generic [ref=e119]:
+                - button "10km" [ref=e120]
+                - button "30km" [pressed] [ref=e121]
+                - button "50km" [ref=e122]
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - generic [ref=e125]: 필요 장비
+                - button "선택 해제" [ref=e211]:
+                  - img [ref=e212]
+                  - text: 선택 해제
+              - combobox "필요 장비" [ref=e126]:
+                - option "전체 추천 장비"
+                - option "SS기"
+                - option "관수 펌프"
+                - option "방제 드론"
+                - option "배수 펌프"
+                - option "트랙터" [selected]
+            - group "정렬" [ref=e127]:
+              - generic [ref=e128]:
+                - img [ref=e129]
+                - text: 정렬
+              - generic [ref=e132]:
+                - button "추천순" [pressed] [ref=e133]
+                - button "거리순" [ref=e134]
+          - generic [ref=e215]:
+            - strong [ref=e216]: 트랙터
+            - text: 항목이 있는 사업소만 표시하며, 카드에는 선택 장비만 표시됩니다.
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e138]:
+                - generic [ref=e139]:
+                  - generic:
+                    - generic:
+                      - img
+                    - button [ref=e141] [cursor=pointer]
+                    - generic:
+                      - tooltip "김제 필터검증 농장":
+                        - strong: 김제 필터검증 농장
+                      - tooltip "김제시 농기계임대사업소 만경분소":
+                        - strong: 김제시 농기계임대사업소 만경분소
+                  - generic [ref=e143]:
+                    - button "Zoom in" [ref=e144] [cursor=pointer]: +
+                    - button "Zoom out" [ref=e145] [cursor=pointer]: −
+                - generic [ref=e146]:
+                  - generic [ref=e147]: 선택 농장
+                  - generic [ref=e149]: 임대사업소
+              - generic [ref=e151]:
+                - img [ref=e152]
+                - text: 거리는 좌표 기준 직선거리이며 실제 이동거리와 다를 수 있습니다.
+            - article [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]: NO.
+                  - generic [ref=e161]: "01"
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - generic [ref=e165]:
+                      - generic [ref=e166]: 우선 문의처
+                      - heading "김제시 농기계임대사업소 만경분소" [level=3] [ref=e167]
+                    - generic [ref=e168]:
+                      - generic [ref=e169]: 직선거리
+                      - generic [ref=e170]: 0.0km
+                  - generic [ref=e171]:
+                    - img [ref=e172]
+                    - generic [ref=e175]: 김제시 만경읍
+                  - generic [ref=e177]:
+                    - generic [ref=e178]:
+                      - generic [ref=e179]: 트랙터
+                      - generic [ref=e180]: 방제 작업 권장
+                    - generic [ref=e181]: 샘플·문의 필요 · 예시 5대
+                  - generic [ref=e203]:
+                    - link "지도에서 보기" [ref=e204] [cursor=pointer]:
+                      - /url: https://map.naver.com/p/search/%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%86%8D%EA%B8%B0%EA%B3%84%EC%9E%84%EB%8C%80%EC%82%AC%EC%97%85%EC%86%8C%20%EB%A7%8C%EA%B2%BD%EB%B6%84%EC%86%8C
+                      - img [ref=e205]
+                      - text: 지도에서 보기
+                    - link "전화 문의" [ref=e207] [cursor=pointer]:
+                      - /url: tel:063-540-4560
+                      - img [ref=e208]
+                      - text: 전화 문의

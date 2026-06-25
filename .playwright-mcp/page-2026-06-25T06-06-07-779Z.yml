@@ -1,0 +1,150 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+    - generic [ref=e25]:
+      - generic [ref=e26]: 데이터 출처
+      - text: 기상청 · NCPMS · PERS · KAMIS · 농업기상 · 농기계임대
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - application "농장 필지 선택 지도" [ref=e33]
+          - generic:
+            - generic:
+              - generic:
+                - img
+                - text: 팜맵 OpenAPI
+                - generic: 필지 0개
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - button "항공" [pressed] [ref=e36]:
+                  - img [ref=e37]
+                  - text: 항공
+                - button "일반" [ref=e43]:
+                  - img [ref=e44]
+                  - text: 일반
+                - button "팜맵 경계" [ref=e46]:
+                  - img [ref=e47]
+                  - text: 팜맵 경계
+              - generic "경지 구분 필터" [ref=e51]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]: 경지 구분
+                  - button "전체" [ref=e54]
+                - generic [ref=e55]:
+                  - button "논 0" [pressed] [ref=e56]:
+                    - generic [ref=e58]: 논
+                    - generic [ref=e59]: "0"
+                  - button "밭 0" [pressed] [ref=e60]:
+                    - generic [ref=e62]: 밭
+                    - generic [ref=e63]: "0"
+                  - button "과수 0" [pressed] [ref=e64]:
+                    - generic [ref=e66]: 과수
+                    - generic [ref=e67]: "0"
+                  - button "시설 0" [pressed] [ref=e68]:
+                    - generic [ref=e70]: 시설
+                    - generic [ref=e71]: "0"
+          - generic:
+            - img
+            - text: 색상별 필지 경계를 선택하거나 지도 위치를 클릭하세요.
+          - generic: Esri World Imagery | 농림축산식품부 · EPIS 팜맵
+        - generic:
+          - generic:
+            - paragraph: FIELD REGISTRATION
+            - heading "팜맵 기반 필지 등록" [level=1]
+      - complementary [ref=e73]:
+        - generic [ref=e74]:
+          - img [ref=e76]
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: FARMMAP PARCEL
+            - heading "필지 등록" [level=2] [ref=e82]
+        - generic [ref=e83]:
+          - button "주소 / PNU" [ref=e84]
+          - button "지역 조건" [ref=e85]
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - button "법정동+지번" [ref=e88]
+            - button "PNU 19자리" [ref=e89]
+          - generic [ref=e90]:
+            - text: 법정동 검색
+            - generic [ref=e91]:
+              - textbox "법정동 검색" [ref=e92]:
+                - /placeholder: "예: 김제시 만경읍 대동리"
+              - button [ref=e93]:
+                - img [ref=e94]
+          - paragraph [ref=e97]: 법정동 검색 결과를 선택하세요.
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - text: 본번
+              - textbox "본번" [ref=e100]
+            - generic [ref=e101]:
+              - text: 부번
+              - textbox "부번" [ref=e102]
+            - generic [ref=e103]:
+              - checkbox "산" [ref=e104]
+              - text: 산
+          - paragraph [ref=e105]: 법정동과 본번을 입력하면 PNU가 생성됩니다.
+          - button "PNU로 필지 조회" [ref=e106]
+        - generic "필지 목록" [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - heading "필지 목록" [level=3] [ref=e110]
+              - generic [ref=e111]: 0개
+            - generic [ref=e112]:
+              - img [ref=e113]
+              - paragraph [ref=e115]: 검색하거나 지도에서 필지를 선택하세요.
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - paragraph [ref=e120]:
+            - img [ref=e121]
+            - text: 선택 필지 정보 · 지번 조회
+          - paragraph [ref=e125]: 지도 또는 필지 목록에서 1개를 선택하세요.
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - text: 농장명
+            - textbox "농장명" [ref=e128]:
+              - /placeholder: "예: 만경 들녘 1필지"
+          - generic [ref=e129]:
+            - text: 작물
+            - combobox "작물" [ref=e130]:
+              - option "감귤"
+              - option "감자"
+              - option "고추"
+              - option "벼" [selected]
+              - option "배"
+              - option "사과"
+              - option "파"
+              - option "포도"
+          - generic [ref=e131]:
+            - text: 생육 단계
+            - combobox "생육 단계" [ref=e132]:
+              - option "유묘기"
+              - option "생육초기"
+              - option "생육중기"
+              - option "개화기"
+              - option "결실기"
+          - generic [ref=e133]:
+            - text: 재배면적(㎡)
+            - spinbutton "재배면적(㎡)" [ref=e134]
+        - generic [ref=e135]:
+          - button "선택한 필지 등록" [disabled] [ref=e136]:
+            - img [ref=e137]
+            - text: 선택한 필지 등록
+          - button "취소" [ref=e140]

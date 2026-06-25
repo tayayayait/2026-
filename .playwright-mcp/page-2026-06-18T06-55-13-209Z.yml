@@ -1,0 +1,69 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /farmer
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+      - link "관리자" [ref=e25] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e26]
+        - text: 관리자
+    - generic [ref=e28]:
+      - generic [ref=e29]: 데이터 출처
+      - text: 기상청 · NCPMS · 농업기상 · 농기계임대
+  - generic [ref=e30]:
+    - banner [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "병해충 사진검색" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 작물 분류와 사진을 기준으로 병·해충·잡초 상세정보를 조회합니다.
+        - link "농가 대시보드" [ref=e36] [cursor=pointer]:
+          - /url: /farmer
+          - img [ref=e37]
+          - text: 농가 대시보드
+    - main [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - textbox "병해충 또는 잡초 이름 검색" [disabled] [ref=e47]
+          - button "검색" [disabled]:
+            - img
+            - text: 검색
+          - button "초기화" [disabled]:
+            - img
+            - text: 초기화
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - heading "1. 작물 분류" [level=2] [ref=e51]
+              - generic [ref=e52]: "0"
+            - img [ref=e54]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - heading "2. 작물" [level=2] [ref=e58]
+              - generic [ref=e59]: "0"
+            - generic [ref=e60]: 먼저 작물 분류를 선택하세요.
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - heading "3. 사진 후보" [level=2] [ref=e63]
+              - generic [ref=e64]: "0"
+            - generic [ref=e65]: 작물 또는 잡초 분류를 선택하면 사진 후보가 표시됩니다.
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - paragraph [ref=e74]: 사진 후보를 선택하면 상세정보가 표시됩니다.

@@ -1,0 +1,255 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+      - link "지역 운영" [ref=e25] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e26]
+        - text: 지역 운영
+    - generic [ref=e31]:
+      - generic [ref=e32]: 데이터 출처
+      - text: 기상청 · NCPMS · 농업기상 · 농기계임대
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - application "농장 필지 선택 지도" [ref=e39]:
+            - generic [ref=e40]:
+              - generic:
+                - generic:
+                  - img [ref=e225]
+                  - img [ref=e226]
+                  - img [ref=e206]
+                  - img [ref=e207]
+                  - img [ref=e227]
+                  - img [ref=e228]
+                  - img [ref=e229]
+                  - img [ref=e208]
+                  - img [ref=e230]
+                  - img [ref=e231]
+                  - img [ref=e232]
+                  - img [ref=e233]
+                  - img [ref=e234]
+                  - img [ref=e235]
+                  - img [ref=e236]
+                  - img [ref=e237]
+                  - img [ref=e238]
+                  - img [ref=e239]
+                  - img [ref=e240]
+                  - img [ref=e241]
+                - generic:
+                  - img [ref=e242]
+                  - img [ref=e243]
+                  - img [ref=e244]
+                  - img [ref=e245]
+                  - img [ref=e246]
+                  - img [ref=e249]
+                  - img [ref=e250]
+                  - img [ref=e251]
+                  - img [ref=e252]
+                  - img [ref=e253]
+                  - img [ref=e254]
+                  - img [ref=e255]
+                  - img [ref=e256]
+                  - img [ref=e257]
+                  - img [ref=e258]
+                  - img [ref=e259]
+                  - img [ref=e260]
+                  - img [ref=e261]
+                  - img [ref=e262]
+                  - img [ref=e263]
+                - img [ref=e41]
+                - img [ref=e42]
+              - generic:
+                - img [ref=e164] [cursor=pointer]
+                - img [ref=e166] [cursor=pointer]
+                - img [ref=e168] [cursor=pointer]
+                - img [ref=e170] [cursor=pointer]
+                - img [ref=e172] [cursor=pointer]
+                - img [ref=e175]
+                - img [ref=e177] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - img
+                - text: 팜맵 OpenAPI
+                - generic: 필지 1개
+              - generic:
+                - img
+                - text: 논 · 2,046㎡
+            - generic [ref=e58]:
+              - button "항공" [pressed] [ref=e59]:
+                - img [ref=e60]
+                - text: 항공
+              - button "일반" [ref=e66]:
+                - img [ref=e67]
+                - text: 일반
+              - button "팜맵 경계" [pressed] [ref=e69]:
+                - img [ref=e70]
+                - text: 팜맵 경계
+          - generic:
+            - img
+            - text: 초록색 필지 경계를 선택하거나 지도 위치를 클릭하세요.
+          - generic: Esri World Imagery | 농림축산식품부 · EPIS 팜맵
+        - generic:
+          - generic:
+            - paragraph: FIELD REGISTRATION
+            - heading "팜맵 기반 필지 등록" [level=1]
+          - generic:
+            - generic: PNU
+            - generic: 지역 조건
+            - generic: 지도 클릭
+      - complementary [ref=e75]:
+        - generic [ref=e76]:
+          - img [ref=e78]
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: FARMMAP PARCEL
+            - heading "필지 등록" [level=2] [ref=e84]
+        - generic [ref=e85]:
+          - button "주소 / PNU" [ref=e86]
+          - button "지역 조건" [ref=e87]
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e264]:
+              - text: 시도
+              - combobox "시도" [ref=e265]:
+                - option "선택"
+                - option "전북특별자치도" [selected]
+                - option "충청북도"
+                - option "서울특별시"
+                - option "충청남도"
+                - option "전라남도"
+                - option "경상북도"
+                - option "경상남도"
+                - option "부산광역시"
+                - option "대구광역시"
+                - option "인천광역시"
+                - option "광주광역시"
+                - option "제주특별자치도"
+                - option "강원특별자치도"
+                - option "대전광역시"
+                - option "울산광역시"
+                - option "경기도"
+            - generic [ref=e266]:
+              - text: 시군구
+              - combobox "시군구" [ref=e267]:
+                - option "선택" [selected]
+                - option "고창군"
+                - option "군산시"
+                - option "김제시"
+                - option "남원시"
+                - option "무주군"
+                - option "부안군"
+                - option "순창군"
+                - option "완주군"
+                - option "익산시"
+                - option "임실군"
+                - option "장수군"
+                - option "전주시"
+                - option "정읍시"
+                - option "진안군"
+            - generic [ref=e268]:
+              - text: 읍면동
+              - combobox "읍면동" [disabled] [ref=e269]:
+                - option "선택" [selected]
+            - generic [ref=e270]:
+              - text: 리
+              - combobox "리" [disabled] [ref=e271]:
+                - option "선택" [selected]
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - text: 본번
+              - textbox "본번" [active] [ref=e274]
+            - generic [ref=e275]:
+              - text: 부번
+              - textbox "부번" [ref=e276]
+            - generic [ref=e277]:
+              - checkbox "산" [ref=e278]
+              - text: 산
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - text: 최소 면적(㎡)
+              - textbox "최소 면적(㎡)" [ref=e281]
+            - generic [ref=e282]:
+              - text: 최대 면적(㎡)
+              - textbox "최대 면적(㎡)" [ref=e283]
+          - generic [ref=e284]:
+            - text: 경지 구분
+            - combobox "경지 구분" [ref=e285]:
+              - option "전체(논, 밭, 과수, 시설)" [selected]
+              - option "논"
+              - option "밭"
+              - option "과수"
+              - option "시설"
+          - button "읍면동 또는 리를 선택하세요" [disabled] [ref=e286]
+        - generic "필지 목록" [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - heading "필지 목록" [level=3] [ref=e112]
+              - generic [ref=e113]: 1개
+            - button "전북특별자치도 김제시 만경읍 송상리 6 논 2,046㎡ 5221025024100060000" [ref=e213]:
+              - img [ref=e215]
+              - generic [ref=e217]:
+                - generic [ref=e218]: 전북특별자치도 김제시 만경읍 송상리 6
+                - generic [ref=e219]:
+                  - generic [ref=e220]: 논
+                  - generic [ref=e221]: 2,046㎡
+                  - generic [ref=e222]: "5221025024100060000"
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - paragraph [ref=e122]:
+            - img [ref=e123]
+            - text: 선택 필지 정보 · PNU 조회
+          - paragraph [ref=e223]: 전북특별자치도 김제시 만경읍 송상리 6
+          - paragraph [ref=e224]: 논 · 2,046㎡ · 5221025024100060000
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - text: 농장명
+            - textbox "농장명" [ref=e130]:
+              - /placeholder: "예: 만경 들녘 1필지"
+          - generic [ref=e131]:
+            - text: 작물
+            - combobox "작물" [ref=e132]:
+              - option "벼" [selected]
+              - option "고추"
+              - option "마늘"
+              - option "양파"
+              - option "사과"
+              - option "배"
+              - option "포도"
+              - option "감자"
+              - option "기타"
+          - generic [ref=e133]:
+            - text: 생육 단계
+            - combobox "생육 단계" [ref=e134]:
+              - option "파종/정식" [selected]
+              - option "생육"
+              - option "개화"
+              - option "착과"
+              - option "수확 전"
+              - option "수확"
+          - generic [ref=e135]:
+            - text: 재배면적(㎡)
+            - spinbutton "재배면적(㎡)" [ref=e136]: "2046"
+        - generic [ref=e137]:
+          - button "선택한 필지 등록" [disabled] [ref=e138]:
+            - img [ref=e139]
+            - text: 선택한 필지 등록
+          - button "취소" [ref=e142]

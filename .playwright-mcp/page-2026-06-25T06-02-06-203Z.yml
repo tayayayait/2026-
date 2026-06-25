@@ -1,0 +1,228 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+    - generic [ref=e25]:
+      - generic [ref=e26]: 데이터 출처
+      - text: 기상청 · NCPMS · PERS · KAMIS · 농업기상 · 농기계임대
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - application "농장 필지 선택 지도" [ref=e33]:
+            - generic [ref=e141]:
+              - generic:
+                - generic:
+                  - img [ref=e142]
+                  - img [ref=e143]
+                  - img [ref=e144]
+                  - img [ref=e145]
+                  - img [ref=e146]
+                  - img [ref=e147]
+                  - img [ref=e148]
+                  - img [ref=e149]
+                  - img [ref=e150]
+                  - img [ref=e151]
+                  - img [ref=e152]
+                  - img [ref=e153]
+                  - img [ref=e154]
+                  - img [ref=e155]
+                  - img [ref=e156]
+                  - img [ref=e157]
+                  - img [ref=e158]
+                  - img [ref=e159]
+                  - img [ref=e160]
+                  - img [ref=e161]
+                  - img [ref=e162]
+                  - img [ref=e163]
+                  - img [ref=e164]
+                  - img [ref=e165]
+                  - img [ref=e166]
+                  - img [ref=e167]
+                  - img [ref=e168]
+                  - img [ref=e169]
+                - img [ref=e170]
+                - img [ref=e171]
+              - generic:
+                - img [ref=e173] [cursor=pointer]
+                - img [ref=e175] [cursor=pointer]
+                - img [ref=e177] [cursor=pointer]
+                - img [ref=e179] [cursor=pointer]
+                - img [ref=e181] [cursor=pointer]
+                - img [ref=e184]
+                - img [ref=e186] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - img
+                - text: 팜맵 OpenAPI
+                - generic: WFS 조회 오류
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - button "항공" [pressed] [ref=e36]:
+                  - img [ref=e37]
+                  - text: 항공
+                - button "일반" [ref=e43]:
+                  - img [ref=e44]
+                  - text: 일반
+                - button "팜맵 경계" [ref=e46]:
+                  - img [ref=e47]
+                  - text: 팜맵 경계
+              - generic "경지 구분 필터" [ref=e51]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]: 경지 구분
+                  - button "전체" [ref=e54]
+                - generic [ref=e55]:
+                  - button "논 0" [pressed] [ref=e56]:
+                    - generic [ref=e58]: 논
+                    - generic [ref=e59]: "0"
+                  - button "밭 0" [pressed] [ref=e60]:
+                    - generic [ref=e62]: 밭
+                    - generic [ref=e63]: "0"
+                  - button "과수 0" [pressed] [ref=e64]:
+                    - generic [ref=e66]: 과수
+                    - generic [ref=e67]: "0"
+                  - button "시설 0" [pressed] [ref=e68]:
+                    - generic [ref=e70]: 시설
+                    - generic [ref=e71]: "0"
+          - generic:
+            - img
+            - text: 색상별 필지 경계를 선택하거나 지도 위치를 클릭하세요.
+          - generic: Esri World Imagery | 농림축산식품부 · EPIS 팜맵
+        - generic:
+          - generic:
+            - paragraph: FIELD REGISTRATION
+            - heading "팜맵 기반 필지 등록" [level=1]
+      - complementary [ref=e73]:
+        - generic [ref=e74]:
+          - img [ref=e76]
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: FARMMAP PARCEL
+            - heading "필지 등록" [level=2] [ref=e82]
+        - generic [ref=e83]:
+          - button "주소 / PNU" [ref=e84]
+          - button "지역 조건" [active] [ref=e85]
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e189]:
+              - text: 시도
+              - combobox "시도" [ref=e190]:
+                - option "선택" [selected]
+                - option "전북특별자치도"
+                - option "충청북도"
+                - option "서울특별시"
+                - option "충청남도"
+                - option "전남광주통합특별시"
+                - option "전라남도"
+                - option "경상북도"
+                - option "경상남도"
+                - option "부산광역시"
+                - option "대구광역시"
+                - option "인천광역시"
+                - option "광주광역시"
+                - option "제주특별자치도"
+                - option "강원특별자치도"
+                - option "대전광역시"
+                - option "울산광역시"
+                - option "경기도"
+            - generic [ref=e191]:
+              - text: 시군구
+              - combobox "시군구" [disabled] [ref=e192]:
+                - option "선택" [selected]
+            - generic [ref=e193]:
+              - text: 읍면동
+              - combobox "읍면동" [disabled] [ref=e194]:
+                - option "선택" [selected]
+            - generic [ref=e195]:
+              - text: 리
+              - combobox "리" [disabled] [ref=e196]:
+                - option "선택" [selected]
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - text: 본번
+              - textbox "본번" [ref=e199]
+            - generic [ref=e200]:
+              - text: 부번
+              - textbox "부번" [ref=e201]
+            - generic [ref=e202]:
+              - checkbox "산" [ref=e203]
+              - text: 산
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - text: 최소 면적(㎡)
+              - textbox "최소 면적(㎡)" [ref=e206]
+            - generic [ref=e207]:
+              - text: 최대 면적(㎡)
+              - textbox "최대 면적(㎡)" [ref=e208]
+          - generic [ref=e209]:
+            - text: 경지 구분
+            - combobox "경지 구분" [ref=e210]:
+              - option "전체(논, 밭, 과수, 시설)" [selected]
+              - option "논"
+              - option "밭"
+              - option "과수"
+              - option "시설"
+          - button "읍면동 또는 리를 선택하세요" [disabled] [ref=e211]
+        - generic "필지 목록" [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - heading "필지 목록" [level=3] [ref=e110]
+              - generic [ref=e111]: 0개
+            - generic [ref=e112]:
+              - img [ref=e113]
+              - paragraph [ref=e115]: 검색하거나 지도에서 필지를 선택하세요.
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - paragraph [ref=e120]:
+            - img [ref=e121]
+            - text: 선택 필지 정보 · 지번 조회
+          - paragraph [ref=e125]: 지도 또는 필지 목록에서 1개를 선택하세요.
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - text: 농장명
+            - textbox "농장명" [ref=e128]:
+              - /placeholder: "예: 만경 들녘 1필지"
+          - generic [ref=e129]:
+            - text: 작물
+            - combobox "작물" [ref=e130]:
+              - option "감귤"
+              - option "감자"
+              - option "고추"
+              - option "벼" [selected]
+              - option "배"
+              - option "사과"
+              - option "파"
+              - option "포도"
+          - generic [ref=e131]:
+            - text: 생육 단계
+            - combobox "생육 단계" [ref=e132]:
+              - option "유묘기"
+              - option "생육초기"
+              - option "생육중기"
+              - option "개화기"
+              - option "결실기"
+          - generic [ref=e133]:
+            - text: 재배면적(㎡)
+            - spinbutton "재배면적(㎡)" [ref=e134]
+        - generic [ref=e135]:
+          - button "선택한 필지 등록" [disabled] [ref=e136]:
+            - img [ref=e137]
+            - text: 선택한 필지 등록
+          - button "취소" [ref=e140]

@@ -1,0 +1,328 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+      - link "지역 운영" [ref=e25] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e26]
+        - text: 지역 운영
+    - generic [ref=e31]:
+      - generic [ref=e32]: 데이터 출처
+      - text: 기상청 · NCPMS · 농업기상 · 농기계임대
+  - generic [ref=e33]:
+    - banner [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - heading "상세 위험도 분석" [level=1] [ref=e37]
+          - paragraph [ref=e42]: 검증 농장 (벼)
+        - link "AI 리포트 생성" [ref=e43] [cursor=pointer]:
+          - /url: /reports/visual-risk-farm
+          - text: AI 리포트 생성
+          - img [ref=e44]
+    - main [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e47]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: "0"
+            - generic [ref=e53]: / 100
+          - generic [ref=e54]:
+            - heading "현재 위험도는 관리 가능한 수준입니다." [level=2] [ref=e55]:
+              - img [ref=e56]
+              - text: 현재 위험도는 관리 가능한 수준입니다.
+            - generic [ref=e59]:
+              - heading "위험 요인 분석" [level=3] [ref=e60]
+              - paragraph [ref=e61]: 현재 감지된 주요 위험 요인이 없습니다.
+        - generic [ref=e62]:
+          - generic [ref=e64]:
+            - img [ref=e65]
+            - text: 분석 데이터 출처
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e73]: 기상청 단기예보
+              - generic [ref=e74]: 실 API 응답
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: 농업기상 관측정보
+                - generic [ref=e78]: 2026-06-21 관측·1.2km
+              - generic [ref=e79]: 실 API 응답
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - generic [ref=e82]: 기상청-농업기상 결합데이터
+                - generic [ref=e83]: 비교 검증용 결합데이터
+              - generic [ref=e84]: 실 API 응답
+            - generic [ref=e85]:
+              - generic [ref=e87]: NCPMS 병해충 정보
+              - generic [ref=e88]: 실 API 응답
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - img [ref=e95]
+                  - text: 현재 작업 조건
+                - paragraph [ref=e97]: 기상청 실황·예보를 기준으로 농작업 가능 여부를 판단합니다.
+              - generic [ref=e98]:
+                - img [ref=e99]
+                - generic [ref=e102]:
+                  - generic [ref=e103]: 작업 가능
+                  - generic [ref=e104]: 강수·풍속 기준 양호
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108]:
+                  - img [ref=e109]
+                  - generic [ref=e111]: 현재 기온
+                  - generic [ref=e112]: 22.8℃
+                - generic [ref=e113]:
+                  - img [ref=e114]
+                  - generic [ref=e116]: 습도
+                  - generic [ref=e117]: 64%
+                - generic [ref=e118]:
+                  - img [ref=e119]
+                  - generic [ref=e122]: 강수량
+                  - generic [ref=e123]: 0mm
+                - generic [ref=e124]:
+                  - img [ref=e125]
+                  - generic [ref=e129]: 풍속
+                  - generic [ref=e130]: 2m/s
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: 강수
+                  - generic [ref=e134]: 강수 낮음
+                - generic [ref=e135]:
+                  - generic [ref=e136]: 풍속
+                  - generic [ref=e137]: 작업 가능 범위
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 고온·다습
+                  - generic [ref=e140]: 특이 조건 낮음
+              - paragraph [ref=e141]: "기준: 기상청 20260623 1400 · 격자 70, 85"
+          - generic [ref=e142]:
+            - generic [ref=e144]:
+              - img [ref=e145]
+              - text: 농업기상 최근 일관측
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - img [ref=e151]
+                  - text: Geochang · 1.2km
+                - paragraph [ref=e154]: "관측일: 2026-06-21 · 현재 기온이 아닌 일 단위 관측값"
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - img [ref=e157]
+                  - generic [ref=e159]: 평균기온
+                  - generic [ref=e160]: 23.9℃
+                - generic [ref=e161]:
+                  - img [ref=e162]
+                  - generic [ref=e164]: 최고/최저
+                  - generic [ref=e165]: 30.4℃ / 20.8℃
+                - generic [ref=e166]:
+                  - img [ref=e167]
+                  - generic [ref=e170]: 강수량
+                  - generic [ref=e171]: 0mm
+                - generic [ref=e172]:
+                  - img [ref=e173]
+                  - generic [ref=e177]: 풍속
+                  - generic [ref=e178]: 0.3m/s
+          - generic [ref=e179]:
+            - generic [ref=e181]:
+              - img [ref=e182]
+              - text: 데이터 근거
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - img [ref=e190]
+                - generic [ref=e192]:
+                  - generic [ref=e193]:
+                    - generic [ref=e194]: 기상청
+                    - generic [ref=e195]: 지금 작업 판단 기준
+                  - generic [ref=e196]: 22.8℃ · 0mm · 2m/s
+              - generic [ref=e197]:
+                - img [ref=e199]
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - generic [ref=e203]: 농업기상
+                    - generic [ref=e204]: 근처 관측소 최근 일관측
+                  - generic [ref=e205]: 2026-06-21 · Geochang
+              - generic [ref=e206]:
+                - img [ref=e208]
+                - generic [ref=e211]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: NCPMS
+                    - generic [ref=e214]: 병해충 후보·예측 근거
+                  - generic [ref=e215]: 실 API 응답
+        - generic [ref=e216]:
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]: Crop intelligence
+                - generic [ref=e224]: NCPMS 실데이터
+              - heading "병해충 모니터링" [level=2] [ref=e225]:
+                - img [ref=e226]
+                - text: 병해충 모니터링
+              - paragraph [ref=e235]: 벼에 등록된 관련 정보와 예측 지원 범위를 분리해 확인합니다.
+            - link "사진으로 확인" [ref=e236] [cursor=pointer]:
+              - /url: /pests/photo-search?farmId=visual-risk-farm
+              - img [ref=e237]
+              - text: 사진으로 확인
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - generic [ref=e242]:
+                - generic [ref=e243]: 관련 병해충
+                - generic [ref=e244]: 30종
+              - generic [ref=e245]:
+                - generic [ref=e246]: 병
+                - generic [ref=e247]: 19종
+              - generic [ref=e248]:
+                - generic [ref=e249]: 해충
+                - generic [ref=e250]: 11종
+              - generic [ref=e251]:
+                - generic [ref=e252]: 예측 지원
+                - generic [ref=e253]: 2종
+            - generic [ref=e254]:
+              - img [ref=e255]
+              - paragraph [ref=e262]: 현재 발생 여부는 관련 목록만으로 판단할 수 없습니다. 경고 상태는 예찰·관측 근거가 연계될 때만 표시됩니다.
+            - generic [ref=e263]:
+              - tablist [ref=e264]:
+                - tab "관련 병해충" [selected] [ref=e265] [cursor=pointer]:
+                  - img [ref=e266]
+                  - text: 관련 병해충
+                - tab "예측 지원" [ref=e270] [cursor=pointer]:
+                  - img [ref=e271]
+                  - text: 예측 지원
+                - tab "예측 지도" [ref=e280] [cursor=pointer]:
+                  - img [ref=e281]
+                  - text: 예측 지도
+              - tabpanel "관련 병해충" [ref=e285]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]:
+                    - generic [ref=e288]:
+                      - img
+                      - textbox "병해충 검색" [ref=e289]:
+                        - /placeholder: 병명·해충명·학명 검색
+                    - generic "병해충 유형 필터" [ref=e290]:
+                      - button "전체 30" [pressed] [ref=e291]
+                      - button "병 19" [ref=e292]
+                      - button "해충 11" [ref=e293]
+                  - generic [ref=e294]:
+                    - article [ref=e295]:
+                      - generic [ref=e296]:
+                        - img [ref=e298]
+                        - generic [ref=e301]:
+                          - generic [ref=e302]:
+                            - heading "갈색균핵병" [level=4] [ref=e303]
+                            - generic [ref=e304]: 병
+                          - paragraph [ref=e305]: 학명·영문명 Rhizoctonia oryzae-sativae
+                    - article [ref=e306]:
+                      - generic [ref=e307]:
+                        - img [ref=e309]
+                        - generic [ref=e312]:
+                          - generic [ref=e313]:
+                            - heading "갈색잎마름병" [level=4] [ref=e314]
+                            - generic [ref=e315]: 병
+                          - paragraph [ref=e316]: 학명·영문명 Microdochium oryzae
+                    - article [ref=e317]:
+                      - generic [ref=e318]:
+                        - img [ref=e320]
+                        - generic [ref=e323]:
+                          - generic [ref=e324]:
+                            - heading "검은줄오갈병" [level=4] [ref=e325]
+                            - generic [ref=e326]: 병
+                          - paragraph [ref=e327]: 학명·영문명 Rice black-streaked dwarf virus
+                    - article [ref=e328]:
+                      - generic [ref=e329]:
+                        - img [ref=e331]
+                        - generic [ref=e334]:
+                          - generic [ref=e335]:
+                            - heading "그을음병" [level=4] [ref=e336]
+                            - generic [ref=e337]: 병
+                          - paragraph [ref=e338]: 학명·영문명 Cladosporium herbarum(Person)
+                    - article [ref=e339]:
+                      - generic [ref=e340]:
+                        - img [ref=e342]
+                        - generic [ref=e345]:
+                          - generic [ref=e346]:
+                            - heading "깨씨무늬병" [level=4] [ref=e347]
+                            - generic [ref=e348]: 병
+                          - group [ref=e349]:
+                            - generic "학명·영문명 2건" [ref=e350] [cursor=pointer]:
+                              - text: 학명·영문명 2건
+                              - img [ref=e351]
+                        - generic [ref=e353]: 원본 2건
+                    - article [ref=e354]:
+                      - generic [ref=e355]:
+                        - img [ref=e357]
+                        - generic [ref=e366]:
+                          - generic [ref=e367]:
+                            - heading "끝동매미충" [level=4] [ref=e368]
+                            - generic [ref=e369]: 해충
+                          - paragraph [ref=e370]: 학명·영문명 cincticeps
+                    - article [ref=e371]:
+                      - generic [ref=e372]:
+                        - img [ref=e374]
+                        - generic [ref=e377]:
+                          - generic [ref=e378]:
+                            - heading "누른오갈병" [level=4] [ref=e379]
+                            - generic [ref=e380]: 병
+                          - paragraph [ref=e381]: 학명·영문명 Sclerophthora macrospora
+                    - article [ref=e382]:
+                      - generic [ref=e383]:
+                        - img [ref=e385]
+                        - generic [ref=e394]:
+                          - generic [ref=e395]:
+                            - heading "먹노린재" [level=4] [ref=e396]
+                            - generic [ref=e397]: 해충
+                          - paragraph [ref=e398]: 학명·영문명 lurida
+                  - button "전체 30종 보기" [ref=e399]
+        - generic [ref=e400]:
+          - generic [ref=e402]:
+            - img [ref=e403]
+            - text: 병해충·잡초 상세 정보
+          - generic [ref=e406]:
+            - generic [ref=e409]:
+              - generic [ref=e410]:
+                - heading "논벼-갈색균핵병" [level=3] [ref=e411]
+                - generic [ref=e412]: 병
+              - generic [ref=e413]:
+                - generic [ref=e414]:
+                  - generic [ref=e415]: 증상
+                  - paragraph [ref=e416]: 증상 정보 없음
+                - generic [ref=e417]:
+                  - generic [ref=e418]: 발생환경
+                  - paragraph [ref=e419]: 발생환경 정보 없음
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - heading "논벼-갈색잎마름병" [level=3] [ref=e424]
+                - generic [ref=e425]: 병
+              - generic [ref=e426]:
+                - generic [ref=e427]:
+                  - generic [ref=e428]: 증상
+                  - paragraph [ref=e429]: 증상 정보 없음
+                - generic [ref=e430]:
+                  - generic [ref=e431]: 발생환경
+                  - paragraph [ref=e432]: 발생환경 정보 없음
+            - generic [ref=e435]:
+              - generic [ref=e436]:
+                - heading "논벼-검은줄오갈병" [level=3] [ref=e437]
+                - generic [ref=e438]: 병
+              - generic [ref=e439]:
+                - generic [ref=e440]:
+                  - generic [ref=e441]: 증상
+                  - paragraph [ref=e442]: 증상 정보 없음
+                - generic [ref=e443]:
+                  - generic [ref=e444]: 발생환경
+                  - paragraph [ref=e445]: 발생환경 정보 없음

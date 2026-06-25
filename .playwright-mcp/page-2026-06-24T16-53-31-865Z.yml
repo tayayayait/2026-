@@ -1,0 +1,117 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+    - generic [ref=e25]:
+      - generic [ref=e26]: 데이터 출처
+      - text: 기상청 · NCPMS · PERS · KAMIS · 농업기상 · 농기계임대
+  - generic [ref=e27]:
+    - banner [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "병해충 사진검색" [level=1] [ref=e31]
+          - paragraph [ref=e32]: 작물 분류와 사진을 기준으로 병·해충·잡초 상세정보를 조회합니다.
+        - link "통합 대시보드" [ref=e33] [cursor=pointer]:
+          - /url: /
+          - img [ref=e34]
+          - text: 통합 대시보드
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: NCPMS SVC13
+              - generic [ref=e43]: 생육단계 전체
+            - paragraph [ref=e44]: 작물과 생육단계는 NCPMS 사진검색 후보의 공식 필터로 전송됩니다.
+          - generic [ref=e45]:
+            - text: 생육 단계 필터
+            - combobox "생육 단계 필터" [ref=e46]:
+              - option "전체 단계" [selected]
+              - option "유묘기"
+              - option "생육초기"
+              - option "생육중기"
+              - option "개화기"
+              - option "결실기"
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - textbox "병해충 또는 잡초 이름 검색" [ref=e52]
+          - button "검색" [ref=e103] [cursor=pointer]:
+            - img
+            - text: 검색
+          - button "초기화" [ref=e104] [cursor=pointer]:
+            - img
+            - text: 초기화
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - heading "1. 작물 분류" [level=2] [ref=e56]
+              - generic [ref=e57]: "6"
+            - generic [ref=e59]:
+              - button "식량작물" [ref=e60]:
+                - generic [ref=e63]: 식량작물
+              - button "과수" [active] [ref=e64]:
+                - generic [ref=e67]: 과수
+                - img [ref=e105]
+              - button "채소" [ref=e68]:
+                - generic [ref=e71]: 채소
+              - button "화훼" [ref=e72]:
+                - generic [ref=e75]: 화훼
+              - button "특용작물" [ref=e76]:
+                - generic [ref=e79]: 특용작물
+              - button "잡초" [ref=e80]:
+                - generic [ref=e83]: 잡초
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - heading "2. 작물" [level=2] [ref=e86]
+              - generic [ref=e87]: "10"
+            - generic [ref=e88]:
+              - generic [ref=e107]:
+                - button "감" [ref=e108]:
+                  - generic [ref=e111]: 감
+                - button "감귤" [ref=e112]:
+                  - generic [ref=e115]: 감귤
+                - button "대추" [ref=e116]:
+                  - generic [ref=e119]: 대추
+                - button "망고" [ref=e120]:
+                  - generic [ref=e123]: 망고
+                - button "매실" [ref=e124]:
+                  - generic [ref=e127]: 매실
+                - button "모과" [ref=e128]:
+                  - generic [ref=e131]: 모과
+                - button "무화과" [ref=e132]:
+                  - generic [ref=e135]: 무화과
+                - button "밤" [ref=e136]:
+                  - generic [ref=e139]: 밤
+                - button "배" [ref=e140]:
+                  - generic [ref=e143]: 배
+                - button "복숭아" [ref=e144]:
+                  - generic [ref=e147]: 복숭아
+              - button "더 보기" [ref=e148] [cursor=pointer]:
+                - img
+                - text: 더 보기
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - heading "3. 사진 후보" [level=2] [ref=e91]
+              - generic [ref=e92]: "0"
+            - generic [ref=e93]: 작물 또는 잡초 분류를 선택하면 사진 후보가 표시됩니다.
+          - generic [ref=e94]:
+            - img [ref=e95]
+            - paragraph [ref=e102]: 사진 후보를 선택하면 상세정보가 표시됩니다.

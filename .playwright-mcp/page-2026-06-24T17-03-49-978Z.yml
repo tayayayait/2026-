@@ -1,0 +1,198 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+    - generic [ref=e25]:
+      - generic [ref=e26]: 데이터 출처
+      - text: 기상청 · NCPMS · PERS · KAMIS · 농업기상 · 농기계임대
+  - generic [ref=e27]:
+    - banner [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "병해충 사진검색" [level=1] [ref=e31]
+          - paragraph [ref=e32]: 작물 분류와 사진을 기준으로 병·해충·잡초 상세정보를 조회합니다.
+        - link "통합 대시보드" [ref=e33] [cursor=pointer]:
+          - /url: /
+          - img [ref=e34]
+          - text: 통합 대시보드
+    - main [ref=e36]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: NCPMS SVC13
+              - generic [ref=e43]: 유묘기
+            - paragraph [ref=e44]: 작물과 생육단계는 NCPMS 사진검색 후보의 공식 필터로 전송됩니다.
+          - generic [ref=e45]:
+            - text: 생육 단계 필터
+            - combobox "생육 단계 필터" [ref=e46]:
+              - option "전체 단계"
+              - option "유묘기" [selected]
+              - option "생육초기"
+              - option "생육중기"
+              - option "개화기"
+              - option "결실기"
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - textbox "병해충 또는 잡초 이름 검색" [ref=e52]: 파
+          - button "검색" [active] [ref=e103] [cursor=pointer]:
+            - img
+            - text: 검색
+          - button "초기화" [ref=e104] [cursor=pointer]:
+            - img
+            - text: 초기화
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - heading "1. 작물 분류" [level=2] [ref=e56]
+              - generic [ref=e57]: "6"
+            - generic [ref=e59]:
+              - button "식량작물" [ref=e60]:
+                - generic [ref=e63]: 식량작물
+              - button "과수" [ref=e64]:
+                - generic [ref=e67]: 과수
+              - button "채소" [ref=e68]:
+                - generic [ref=e71]: 채소
+                - img [ref=e105]
+              - button "화훼" [ref=e72]:
+                - generic [ref=e75]: 화훼
+              - button "특용작물" [ref=e76]:
+                - generic [ref=e79]: 특용작물
+              - button "잡초" [ref=e80]:
+                - generic [ref=e83]: 잡초
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - heading "2. 작물" [level=2] [ref=e86]
+              - generic [ref=e87]: "50"
+            - generic [ref=e88]:
+              - generic [ref=e107]:
+                - button "가지" [ref=e108]:
+                  - generic [ref=e111]: 가지
+                - button "갓" [ref=e112]:
+                  - generic [ref=e115]: 갓
+                - button "고려엉겅퀴(곤드레나물)" [ref=e116]:
+                  - generic [ref=e119]: 고려엉겅퀴(곤드레나물)
+                - button "고추" [ref=e120]:
+                  - generic [ref=e123]: 고추
+                - button "고추냉이" [ref=e124]:
+                  - generic [ref=e127]: 고추냉이
+                - button "곰취" [ref=e128]:
+                  - generic [ref=e131]: 곰취
+                - button "근대" [ref=e132]:
+                  - generic [ref=e135]: 근대
+                - button "냉이" [ref=e136]:
+                  - generic [ref=e139]: 냉이
+                - button "당근" [ref=e140]:
+                  - generic [ref=e143]: 당근
+                - button "더덕" [ref=e144]:
+                  - generic [ref=e147]: 더덕
+                - button "도라지" [ref=e149]:
+                  - generic [ref=e152]: 도라지
+                - button "동아" [ref=e153]:
+                  - generic [ref=e156]: 동아
+                - button "딸기" [ref=e157]:
+                  - generic [ref=e160]: 딸기
+                - button "마늘" [ref=e161]:
+                  - generic [ref=e164]: 마늘
+                - button "머위" [ref=e165]:
+                  - generic [ref=e168]: 머위
+                - button "멜론" [ref=e169]:
+                  - generic [ref=e172]: 멜론
+                - button "무" [ref=e173]:
+                  - generic [ref=e176]: 무
+                - button "미나리" [ref=e177]:
+                  - generic [ref=e180]: 미나리
+                - button "배추" [ref=e181]:
+                  - generic [ref=e184]: 배추
+                - button "부추" [ref=e185]:
+                  - generic [ref=e188]: 부추
+                - button "브로콜리(녹색꽃양배추)" [ref=e189]:
+                  - generic [ref=e192]: 브로콜리(녹색꽃양배추)
+                - button "비름" [ref=e193]:
+                  - generic [ref=e196]: 비름
+                - button "산마늘" [ref=e197]:
+                  - generic [ref=e200]: 산마늘
+                - button "상추" [ref=e201]:
+                  - generic [ref=e204]: 상추
+                - button "샐러리" [ref=e205]:
+                  - generic [ref=e208]: 샐러리
+                - button "생강" [ref=e209]:
+                  - generic [ref=e212]: 생강
+                - button "수박" [ref=e213]:
+                  - generic [ref=e216]: 수박
+                - button "순무" [ref=e217]:
+                  - generic [ref=e220]: 순무
+                - button "시금치" [ref=e221]:
+                  - generic [ref=e224]: 시금치
+                - button "쑥갓" [ref=e225]:
+                  - generic [ref=e228]: 쑥갓
+                - button "아스파라가스" [ref=e229]:
+                  - generic [ref=e232]: 아스파라가스
+                - button "아욱" [ref=e233]:
+                  - generic [ref=e236]: 아욱
+                - button "애호박" [ref=e237]:
+                  - generic [ref=e240]: 애호박
+                - button "양배추" [ref=e241]:
+                  - generic [ref=e244]: 양배추
+                - button "양파" [ref=e245]:
+                  - generic [ref=e248]: 양파
+                - button "여주" [ref=e249]:
+                  - generic [ref=e252]: 여주
+                - button "열무" [ref=e253]:
+                  - generic [ref=e256]: 열무
+                - button "오이" [ref=e257]:
+                  - generic [ref=e260]: 오이
+                - button "오크라" [ref=e261]:
+                  - generic [ref=e264]: 오크라
+                - button "우엉" [ref=e265]:
+                  - generic [ref=e268]: 우엉
+                - button "울외" [ref=e269]:
+                  - generic [ref=e272]: 울외
+                - button "쥬키니호박" [ref=e273]:
+                  - generic [ref=e276]: 쥬키니호박
+                - button "참나물" [ref=e277]:
+                  - generic [ref=e280]: 참나물
+                - button "참외" [ref=e281]:
+                  - generic [ref=e284]: 참외
+                - button "청경채" [ref=e285]:
+                  - generic [ref=e288]: 청경채
+                - button "치커리" [ref=e289]:
+                  - generic [ref=e292]: 치커리
+                - button "케일" [ref=e293]:
+                  - generic [ref=e296]: 케일
+                - button "콜라비(순무양배추)" [ref=e297]:
+                  - generic [ref=e300]: 콜라비(순무양배추)
+                - button "토마토" [ref=e301]:
+                  - generic [ref=e304]: 토마토
+                - button "파" [ref=e305]:
+                  - generic [ref=e308]: 파
+                  - img [ref=e309]
+              - button "더 보기" [ref=e148] [cursor=pointer]:
+                - img
+                - text: 더 보기
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - heading "3. 사진 후보" [level=2] [ref=e91]
+              - generic [ref=e92]: "0"
+            - img [ref=e311]
+          - generic [ref=e94]:
+            - img [ref=e95]
+            - paragraph [ref=e102]: 사진 후보를 선택하면 상세정보가 표시됩니다.

@@ -1,0 +1,46 @@
+Total messages: 5 (Errors: 2, Warnings: 0)
+Returning 30 messages for level "debug"
+
+[DEBUG] [vite] connecting... @ http://192.168.45.234:8080/@vite/client:850
+[DEBUG] [vite] connected. @ http://192.168.45.234:8080/@vite/client:954
+[ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://192.168.45.234:8080/node_modules/.vite/deps/@tanstack_router-core_ssr_client.js?v=39d01daf:0
+[ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://192.168.45.234:8080/node_modules/.vite/deps/@tanstack_router-core.js?v=39d01daf:0
+[ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://192.168.45.234:8080/node_modules/.vite/deps/@tanstack_router-core_isServer.js?v=39d01daf:0
+[LOG] [vite] server connection lost. Polling for restart... @ http://192.168.45.234:8080/@vite/client:992
+[DEBUG] [vite] connecting... @ http://192.168.45.234:8080/@vite/client:850
+[DEBUG] [vite] connected. @ http://192.168.45.234:8080/@vite/client:954
+[DEBUG] [vite] connecting... @ http://192.168.45.234:8080/@vite/client:850
+[DEBUG] [vite] connected. @ http://192.168.45.234:8080/@vite/client:954
+[INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.45.234:8080/node_modules/.vite/deps/react-dom_client.js?v=eb226581:14337
+[ERROR] Failed to load resource: the server responded with a status of 502 () @ http://192.168.45.234:8080/api/farm-map/wfs?bbox=126.75732544403473,35.820528118423006,126.86727455596906,35.86366601645344:0
+[ERROR] WFS Fetch Error: Error: Failed to fetch WFS data
+    at fetchWfsData (http://192.168.45.234:8080/src/hooks/useFarmMapWfs.ts:63:12) @ http://192.168.45.234:8080/@vite/client:524
+[DEBUG] [vite] connecting... @ http://192.168.45.234:8080/@vite/client:850
+[DEBUG] [vite] connected. @ http://192.168.45.234:8080/@vite/client:954
+[INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.45.234:8080/node_modules/.vite/deps/react-dom_client.js?v=eb226581:14337
+[ERROR] Failed to load resource: the server responded with a status of 502 () @ http://192.168.45.234:8080/api/farm-map/wfs?bbox=126.75732544403473,35.820528118423006,126.86727455596906,35.86366601645344:0
+[ERROR] WFS Fetch Error: Error: Failed to fetch WFS data
+    at fetchWfsData (http://192.168.45.234:8080/src/hooks/useFarmMapWfs.ts:63:12) @ http://192.168.45.234:8080/@vite/client:524
+[LOG] TypeError: Failed to fetch
+    at http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/client-rpc/serverFnFetcher.js?v=eb226581:84:39
+    at getResponse (http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/client-rpc/serverFnFetcher.js?v=eb226581:131:20)
+    at serverFnFetcher (http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/client-rpc/serverFnFetcher.js?v=eb226581:84:15)
+    at async client (http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/createServerFn.js?v=eb226581:190:17)
+    at async callNextMiddleware (http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/createServerFn.js?v=eb226581:121:20)
+    at async userNext (http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/createServerFn.js?v=eb226581:107:21)
+    at async callNextMiddleware (http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/createServerFn.js?v=eb226581:121:20)
+    at async Object.assign (http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/createServerFn.js?v=eb226581:46:20)
+    at async loadRegionTree (http://192.168.45.234:8080/src/routes/farms.new.tsx?tsr-split=component:59:19) @ http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+start-client-core@1.170.12/node_modules/@tanstack/start-client-core/dist/esm/client-rpc/serverFnFetcher.js?v=eb226581:134
+[DEBUG] [vite] connecting... @ http://192.168.45.234:8080/@vite/client:850
+[DEBUG] [vite] connected. @ http://192.168.45.234:8080/@vite/client:954
+[INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.45.234:8080/node_modules/.vite/deps/react-dom_client.js?v=eb226581:14337
+[ERROR] Failed to load resource: the server responded with a status of 502 () @ http://192.168.45.234:8080/api/farm-map/wfs?bbox=126.75732544403473,35.820528118423006,126.86727455596906,35.86366601645344:0
+[ERROR] WFS Fetch Error: Error: Failed to fetch WFS data
+    at fetchWfsData (http://192.168.45.234:8080/src/hooks/useFarmMapWfs.ts:63:12) @ http://192.168.45.234:8080/@vite/client:524
+[DEBUG] [vite] connecting... @ http://192.168.45.234:8080/@vite/client:850
+[DEBUG] [vite] connected. @ http://192.168.45.234:8080/@vite/client:954
+[INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://192.168.45.234:8080/node_modules/.vite/deps/react-dom_client.js?v=eb226581:14337
+[ERROR] Failed to load resource: the server responded with a status of 502 () @ http://192.168.45.234:8080/api/farm-map/wfs?bbox=126.75732544403473,35.820528118423006,126.86727455596906,35.86366601645344:0
+[ERROR] WFS Fetch Error: Error: Failed to fetch WFS data
+    at fetchWfsData (http://192.168.45.234:8080/src/hooks/useFarmMapWfs.ts:63:12) @ http://192.168.45.234:8080/@vite/client:524
+Failed to fetch dynamically imported module: http://192.168.45.234:8080/node_modules/.pnpm/@tanstack+react-start@1.168_5e67850c1b31d0ce05f8c2f561794485/node_modules/@tanstack/react-start/dist/plugin/default-entry/client.tsx?t=1782366892737

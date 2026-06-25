@@ -1,0 +1,629 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - link "Farm-Sync 농생명 리스크 대응 AI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Farm-Sync
+        - generic [ref=e11]: 농생명 리스크 대응 AI
+    - navigation [ref=e12]:
+      - link "홈" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: 홈
+      - link "농장 등록" [ref=e17] [cursor=pointer]:
+        - /url: /farms/new
+        - img [ref=e18]
+        - text: 농장 등록
+      - link "알림" [ref=e21] [cursor=pointer]:
+        - /url: /alerts
+        - img [ref=e22]
+        - text: 알림
+      - link "지역 운영" [ref=e25] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e26]
+        - text: 지역 운영
+    - generic [ref=e31]:
+      - generic [ref=e32]: 데이터 출처
+      - text: 기상청 · NCPMS · 농업기상 · 농기계임대
+  - generic [ref=e33]:
+    - banner [ref=e34]:
+      - generic [ref=e36]:
+        - heading "농기계 추천 및 임대 안내" [level=1] [ref=e43]
+        - paragraph [ref=e44]: 김제 들녘농장 · 벼 · 생육
+    - main [ref=e38]:
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - img [ref=e52]
+              - text: 현장 작업 기준
+            - heading "필요한 장비부터 확인하고, 가까운 사업소에 문의하세요." [level=2] [ref=e55]:
+              - text: 필요한 장비부터 확인하고,
+              - text: 가까운 사업소에 문의하세요.
+            - generic [ref=e56]:
+              - generic [ref=e57]: 방제
+              - generic [ref=e58]: 경운/정지
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - generic [ref=e62]: "01"
+                - generic [ref=e63]:
+                  - generic [ref=e64]: 트랙터 및 작업기
+                  - generic [ref=e65]: 보유 사업소 확인
+              - img [ref=e66]
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: "02"
+                - generic [ref=e72]:
+                  - generic [ref=e73]: 관리기 및 작업기
+                  - generic [ref=e74]: 보유 사업소 확인
+              - img [ref=e75]
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - generic [ref=e80]: "03"
+                - generic [ref=e81]:
+                  - generic [ref=e82]: 땅속작물 수확기
+                  - generic [ref=e83]: 보유 사업소 확인
+              - img [ref=e84]
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: "04"
+                - generic [ref=e90]:
+                  - generic [ref=e91]: 탈곡기 및 정선작업기
+                  - generic [ref=e92]: 보유 사업소 확인
+              - img [ref=e93]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - img [ref=e98]
+            - generic [ref=e102]:
+              - strong [ref=e103]: 공공데이터·ODCloud
+              - text: 보유 대수는 실시간 대여 가능 수량이 아닙니다.
+          - generic [ref=e104]:
+            - img [ref=e105]
+            - text: 최종 임대 여부는 사업소 확인
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]: RENTAL OFFICES
+              - heading "가까운 임대사업소" [level=2] [ref=e112]
+            - generic [ref=e113]:
+              - text: 검색 결과
+              - strong [ref=e114]: "8"
+              - text: 곳
+          - generic [ref=e115]:
+            - group "직선거리" [ref=e116]:
+              - generic [ref=e117]:
+                - img [ref=e118]
+                - text: 직선거리
+              - generic [ref=e119]:
+                - button "10km" [ref=e120]
+                - button "30km" [pressed] [ref=e121]
+                - button "50km" [ref=e122]
+            - generic [ref=e123]:
+              - generic [ref=e124]: 필요 장비
+              - combobox "필요 장비" [ref=e125]:
+                - option "전체 추천 장비" [selected]
+                - option "경운기 및 작업기"
+                - option "관리기 및 작업기"
+                - option "기타 임대 농기계"
+                - option "땅속작물 수확기"
+                - option "탈곡기 및 정선작업기"
+                - option "트랙터 및 작업기"
+            - group "정렬" [ref=e126]:
+              - generic [ref=e127]:
+                - img [ref=e128]
+                - text: 정렬
+              - generic [ref=e131]:
+                - button "추천순" [pressed] [ref=e132]
+                - button "거리순" [ref=e133]
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - button [ref=e140] [cursor=pointer]
+                      - button [ref=e142] [cursor=pointer]
+                      - button [ref=e144] [cursor=pointer]
+                      - button [ref=e146] [cursor=pointer]
+                      - button [ref=e148] [cursor=pointer]
+                      - button [ref=e150] [cursor=pointer]
+                      - button [ref=e152] [cursor=pointer]
+                      - button [ref=e154] [cursor=pointer]
+                    - generic:
+                      - tooltip "김제 들녘농장":
+                        - strong: 김제 들녘농장
+                      - tooltip "농기계임대사업소 서부분소":
+                        - strong: 농기계임대사업소 서부분소
+                      - tooltip "농기계임대사업소 본소":
+                        - strong: 농기계임대사업소 본소
+                      - tooltip "농기계임대사업소 북부분소":
+                        - strong: 농기계임대사업소 북부분소
+                      - tooltip "동부권 농기계임대사업소":
+                        - strong: 동부권 농기계임대사업소
+                      - tooltip "군산시농업기술센터 본소":
+                        - strong: 군산시농업기술센터 본소
+                      - tooltip "농기계임대사업소 동부분소":
+                        - strong: 농기계임대사업소 동부분소
+                      - tooltip "군산시농업기술센터 동부":
+                        - strong: 군산시농업기술센터 동부
+                      - tooltip "정읍시 농기계임대사업소 북부":
+                        - strong: 정읍시 농기계임대사업소 북부
+                  - generic [ref=e156]:
+                    - button "Zoom in" [ref=e157] [cursor=pointer]: +
+                    - button "Zoom out" [ref=e158] [cursor=pointer]: −
+                - generic [ref=e159]:
+                  - generic [ref=e160]: 선택 농장
+                  - generic [ref=e162]: 임대사업소
+              - generic [ref=e164]:
+                - img [ref=e165]
+                - text: 거리는 좌표 기준 직선거리이며 실제 이동거리와 다를 수 있습니다.
+            - generic [ref=e169]:
+              - article [ref=e170]:
+                - generic [ref=e171]:
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: NO.
+                    - generic [ref=e174]: "01"
+                  - generic [ref=e176]:
+                    - generic [ref=e177]:
+                      - generic [ref=e178]:
+                        - generic [ref=e179]: 우선 문의처
+                        - heading "농기계임대사업소 서부분소" [level=3] [ref=e180]
+                      - generic [ref=e181]:
+                        - generic [ref=e182]: 직선거리
+                        - generic [ref=e183]: 1.3km
+                    - generic [ref=e184]:
+                      - img [ref=e185]
+                      - generic [ref=e188]: 전북특별자치도 김제시 만경읍 만경로 799-21
+                    - generic [ref=e189]:
+                      - generic [ref=e190]:
+                        - generic [ref=e191]:
+                          - generic [ref=e192]: 트랙터 및 작업기
+                          - generic [ref=e193]: 방제 작업 권장
+                        - generic [ref=e194]: 임대 여부 문의 · 보유 121대
+                      - generic [ref=e195]:
+                        - generic [ref=e196]:
+                          - generic [ref=e197]: 관리기 및 작업기
+                          - generic [ref=e198]: 경운/정지 작업 권장
+                        - generic [ref=e199]: 임대 여부 문의 · 보유 45대
+                      - generic [ref=e200]:
+                        - generic [ref=e201]:
+                          - generic [ref=e202]: 땅속작물 수확기
+                          - generic [ref=e203]: 방제 작업 권장
+                        - generic [ref=e204]: 임대 여부 문의 · 보유 13대
+                      - generic [ref=e205]:
+                        - generic [ref=e206]:
+                          - generic [ref=e207]: 탈곡기 및 정선작업기
+                          - generic [ref=e208]: 방제 작업 권장
+                        - generic [ref=e209]: 임대 여부 문의 · 보유 30대
+                      - generic [ref=e210]:
+                        - generic [ref=e211]:
+                          - generic [ref=e212]: 기타 임대 농기계
+                          - generic [ref=e213]: 방제 작업 권장
+                        - generic [ref=e214]: 임대 여부 문의 · 보유 80대
+                    - generic [ref=e215]:
+                      - generic [ref=e216]:
+                        - img [ref=e217]
+                        - text: 전북특별자치도 김제시청 농업기술센터 농촌지원과
+                      - generic [ref=e221]:
+                        - img [ref=e222]
+                        - text: 기준일 2025-07-08
+                    - generic [ref=e226]:
+                      - link "지도에서 보기" [ref=e227] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%A7%8C%EA%B2%BD%EC%9D%8D%20%EB%A7%8C%EA%B2%BD%EB%A1%9C%20799-21
+                        - img [ref=e228]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e230] [cursor=pointer]:
+                        - /url: tel:063-540-2987
+                        - img [ref=e231]
+                        - text: 전화 문의
+              - article [ref=e233]:
+                - generic [ref=e234]:
+                  - generic [ref=e235]:
+                    - generic [ref=e236]: NO.
+                    - generic [ref=e237]: "02"
+                  - generic [ref=e239]:
+                    - generic [ref=e240]:
+                      - heading "농기계임대사업소 본소" [level=3] [ref=e242]
+                      - generic [ref=e243]:
+                        - generic [ref=e244]: 직선거리
+                        - generic [ref=e245]: 7.6km
+                    - generic [ref=e246]:
+                      - img [ref=e247]
+                      - generic [ref=e250]: 전북특별자치도 김제시 동서로 46
+                    - generic [ref=e251]:
+                      - generic [ref=e252]:
+                        - generic [ref=e253]:
+                          - generic [ref=e254]: 트랙터 및 작업기
+                          - generic [ref=e255]: 방제 작업 권장
+                        - generic [ref=e256]: 임대 여부 문의 · 보유 265대
+                      - generic [ref=e257]:
+                        - generic [ref=e258]:
+                          - generic [ref=e259]: 관리기 및 작업기
+                          - generic [ref=e260]: 경운/정지 작업 권장
+                        - generic [ref=e261]: 임대 여부 문의 · 보유 63대
+                      - generic [ref=e262]:
+                        - generic [ref=e263]:
+                          - generic [ref=e264]: 땅속작물 수확기
+                          - generic [ref=e265]: 방제 작업 권장
+                        - generic [ref=e266]: 임대 여부 문의 · 보유 35대
+                      - generic [ref=e267]:
+                        - generic [ref=e268]:
+                          - generic [ref=e269]: 탈곡기 및 정선작업기
+                          - generic [ref=e270]: 방제 작업 권장
+                        - generic [ref=e271]: 임대 여부 문의 · 보유 38대
+                      - generic [ref=e272]:
+                        - generic [ref=e273]:
+                          - generic [ref=e274]: 기타 임대 농기계
+                          - generic [ref=e275]: 방제 작업 권장
+                        - generic [ref=e276]: 임대 여부 문의 · 보유 140대
+                    - generic [ref=e277]:
+                      - generic [ref=e278]:
+                        - img [ref=e279]
+                        - text: 전북특별자치도 김제시청 농업기술센터 농촌지원과
+                      - generic [ref=e283]:
+                        - img [ref=e284]
+                        - text: 기준일 2025-07-08
+                    - generic [ref=e288]:
+                      - link "지도에서 보기" [ref=e289] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%8F%99%EC%84%9C%EB%A1%9C%2046
+                        - img [ref=e290]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e292] [cursor=pointer]:
+                        - /url: tel:063-540-2981
+                        - img [ref=e293]
+                        - text: 전화 문의
+              - article [ref=e295]:
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]: NO.
+                    - generic [ref=e299]: "03"
+                  - generic [ref=e301]:
+                    - generic [ref=e302]:
+                      - heading "농기계임대사업소 북부분소" [level=3] [ref=e304]
+                      - generic [ref=e305]:
+                        - generic [ref=e306]: 직선거리
+                        - generic [ref=e307]: 11.7km
+                    - generic [ref=e308]:
+                      - img [ref=e309]
+                      - generic [ref=e312]: 전북특별자치도 김제시 공덕면 부용로 72
+                    - generic [ref=e313]:
+                      - generic [ref=e314]:
+                        - generic [ref=e315]:
+                          - generic [ref=e316]: 트랙터 및 작업기
+                          - generic [ref=e317]: 방제 작업 권장
+                        - generic [ref=e318]: 임대 여부 문의 · 보유 102대
+                      - generic [ref=e319]:
+                        - generic [ref=e320]:
+                          - generic [ref=e321]: 관리기 및 작업기
+                          - generic [ref=e322]: 경운/정지 작업 권장
+                        - generic [ref=e323]: 임대 여부 문의 · 보유 47대
+                      - generic [ref=e324]:
+                        - generic [ref=e325]:
+                          - generic [ref=e326]: 땅속작물 수확기
+                          - generic [ref=e327]: 방제 작업 권장
+                        - generic [ref=e328]: 임대 여부 문의 · 보유 18대
+                      - generic [ref=e329]:
+                        - generic [ref=e330]:
+                          - generic [ref=e331]: 탈곡기 및 정선작업기
+                          - generic [ref=e332]: 방제 작업 권장
+                        - generic [ref=e333]: 임대 여부 문의 · 보유 33대
+                      - generic [ref=e334]:
+                        - generic [ref=e335]:
+                          - generic [ref=e336]: 기타 임대 농기계
+                          - generic [ref=e337]: 방제 작업 권장
+                        - generic [ref=e338]: 임대 여부 문의 · 보유 81대
+                    - generic [ref=e339]:
+                      - generic [ref=e340]:
+                        - img [ref=e341]
+                        - text: 전북특별자치도 김제시청 농업기술센터 농촌지원과
+                      - generic [ref=e345]:
+                        - img [ref=e346]
+                        - text: 기준일 2025-07-08
+                    - generic [ref=e350]:
+                      - link "지도에서 보기" [ref=e351] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B3%B5%EB%8D%95%EB%A9%B4%20%EB%B6%80%EC%9A%A9%EB%A1%9C%2072
+                        - img [ref=e352]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e354] [cursor=pointer]:
+                        - /url: tel:063-540-2963
+                        - img [ref=e355]
+                        - text: 전화 문의
+              - article [ref=e357]:
+                - generic [ref=e358]:
+                  - generic [ref=e359]:
+                    - generic [ref=e360]: NO.
+                    - generic [ref=e361]: "04"
+                  - generic [ref=e363]:
+                    - generic [ref=e364]:
+                      - heading "동부권 농기계임대사업소" [level=3] [ref=e366]
+                      - generic [ref=e367]:
+                        - generic [ref=e368]: 직선거리
+                        - generic [ref=e369]: 12.9km
+                    - generic [ref=e370]:
+                      - img [ref=e371]
+                      - generic [ref=e374]: 전북특별자치도 부안군 동진면 신광로 20
+                    - generic [ref=e375]:
+                      - generic [ref=e376]:
+                        - generic [ref=e377]:
+                          - generic [ref=e378]: 트랙터 및 작업기
+                          - generic [ref=e379]: 방제 작업 권장
+                        - generic [ref=e380]: 임대 여부 문의 · 보유 96대
+                      - generic [ref=e381]:
+                        - generic [ref=e382]:
+                          - generic [ref=e383]: 경운기 및 작업기
+                          - generic [ref=e384]: 경운/정지 작업 권장
+                        - generic [ref=e385]: 임대 여부 문의 · 보유 18대
+                      - generic [ref=e386]:
+                        - generic [ref=e387]:
+                          - generic [ref=e388]: 관리기 및 작업기
+                          - generic [ref=e389]: 경운/정지 작업 권장
+                        - generic [ref=e390]: 임대 여부 문의 · 보유 48대
+                      - generic [ref=e391]:
+                        - generic [ref=e392]:
+                          - generic [ref=e393]: 땅속작물 수확기
+                          - generic [ref=e394]: 방제 작업 권장
+                        - generic [ref=e395]: 임대 여부 문의 · 보유 15대
+                      - generic [ref=e396]:
+                        - generic [ref=e397]:
+                          - generic [ref=e398]: 탈곡기 및 정선작업기
+                          - generic [ref=e399]: 방제 작업 권장
+                        - generic [ref=e400]: 임대 여부 문의 · 보유 52대
+                      - generic [ref=e401]:
+                        - generic [ref=e402]:
+                          - generic [ref=e403]: 기타 임대 농기계
+                          - generic [ref=e404]: 방제 작업 권장
+                        - generic [ref=e405]: 임대 여부 문의 · 보유 47대
+                    - generic [ref=e406]:
+                      - generic [ref=e407]:
+                        - img [ref=e408]
+                        - text: 전북특별자치도 부안군 농업기술센터
+                      - generic [ref=e412]:
+                        - img [ref=e413]
+                        - text: 기준일 2025-12-30
+                    - generic [ref=e417]:
+                      - link "지도에서 보기" [ref=e418] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%B6%80%EC%95%88%EA%B5%B0%20%EB%8F%99%EC%A7%84%EB%A9%B4%20%EC%8B%A0%EA%B4%91%EB%A1%9C%2020
+                        - img [ref=e419]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e421] [cursor=pointer]:
+                        - /url: tel:063-580-3060
+                        - img [ref=e422]
+                        - text: 전화 문의
+              - article [ref=e424]:
+                - generic [ref=e425]:
+                  - generic [ref=e426]:
+                    - generic [ref=e427]: NO.
+                    - generic [ref=e428]: "05"
+                  - generic [ref=e430]:
+                    - generic [ref=e431]:
+                      - heading "군산시농업기술센터 본소" [level=3] [ref=e433]
+                      - generic [ref=e434]:
+                        - generic [ref=e435]: 직선거리
+                        - generic [ref=e436]: 13.9km
+                    - generic [ref=e437]:
+                      - img [ref=e438]
+                      - generic [ref=e441]: 전북특별자치도 군산시 개정면 운회길 32
+                    - generic [ref=e442]:
+                      - generic [ref=e443]:
+                        - generic [ref=e444]:
+                          - generic [ref=e445]: 트랙터 및 작업기
+                          - generic [ref=e446]: 방제 작업 권장
+                        - generic [ref=e447]: 임대 여부 문의 · 보유 100대
+                      - generic [ref=e448]:
+                        - generic [ref=e449]:
+                          - generic [ref=e450]: 관리기 및 작업기
+                          - generic [ref=e451]: 경운/정지 작업 권장
+                        - generic [ref=e452]: 임대 여부 문의 · 보유 27대
+                      - generic [ref=e453]:
+                        - generic [ref=e454]:
+                          - generic [ref=e455]: 땅속작물 수확기
+                          - generic [ref=e456]: 방제 작업 권장
+                        - generic [ref=e457]: 임대 여부 문의 · 보유 15대
+                      - generic [ref=e458]:
+                        - generic [ref=e459]:
+                          - generic [ref=e460]: 탈곡기 및 정선작업기
+                          - generic [ref=e461]: 방제 작업 권장
+                        - generic [ref=e462]: 임대 여부 문의 · 보유 34대
+                      - generic [ref=e463]:
+                        - generic [ref=e464]:
+                          - generic [ref=e465]: 기타 임대 농기계
+                          - generic [ref=e466]: 방제 작업 권장
+                        - generic [ref=e467]: 임대 여부 문의 · 보유 62대
+                      - generic [ref=e468]:
+                        - generic [ref=e469]:
+                          - generic [ref=e470]: 경운기 및 작업기
+                          - generic [ref=e471]: 경운/정지 작업 권장
+                        - generic [ref=e472]: 임대 여부 문의 · 보유 2대
+                    - generic [ref=e473]:
+                      - generic [ref=e474]:
+                        - img [ref=e475]
+                        - text: 군산시농업기술센터
+                      - generic [ref=e479]:
+                        - img [ref=e480]
+                        - text: 기준일 2025-10-14
+                    - generic [ref=e484]:
+                      - link "지도에서 보기" [ref=e485] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B5%B0%EC%82%B0%EC%8B%9C%20%EA%B0%9C%EC%A0%95%EB%A9%B4%20%EC%9A%B4%ED%9A%8C%EA%B8%B8%2032
+                        - img [ref=e486]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e488] [cursor=pointer]:
+                        - /url: tel:063-454-5236
+                        - img [ref=e489]
+                        - text: 전화 문의
+              - article [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e493]:
+                    - generic [ref=e494]: NO.
+                    - generic [ref=e495]: "06"
+                  - generic [ref=e497]:
+                    - generic [ref=e498]:
+                      - heading "농기계임대사업소 동부분소" [level=3] [ref=e500]
+                      - generic [ref=e501]:
+                        - generic [ref=e502]: 직선거리
+                        - generic [ref=e503]: 16.1km
+                    - generic [ref=e504]:
+                      - img [ref=e505]
+                      - generic [ref=e508]: 전북특별자치도 김제시 봉남면 남산로 56
+                    - generic [ref=e509]:
+                      - generic [ref=e510]:
+                        - generic [ref=e511]:
+                          - generic [ref=e512]: 트랙터 및 작업기
+                          - generic [ref=e513]: 방제 작업 권장
+                        - generic [ref=e514]: 임대 여부 문의 · 보유 130대
+                      - generic [ref=e515]:
+                        - generic [ref=e516]:
+                          - generic [ref=e517]: 관리기 및 작업기
+                          - generic [ref=e518]: 경운/정지 작업 권장
+                        - generic [ref=e519]: 임대 여부 문의 · 보유 57대
+                      - generic [ref=e520]:
+                        - generic [ref=e521]:
+                          - generic [ref=e522]: 땅속작물 수확기
+                          - generic [ref=e523]: 방제 작업 권장
+                        - generic [ref=e524]: 임대 여부 문의 · 보유 17대
+                      - generic [ref=e525]:
+                        - generic [ref=e526]:
+                          - generic [ref=e527]: 탈곡기 및 정선작업기
+                          - generic [ref=e528]: 방제 작업 권장
+                        - generic [ref=e529]: 임대 여부 문의 · 보유 31대
+                      - generic [ref=e530]:
+                        - generic [ref=e531]:
+                          - generic [ref=e532]: 기타 임대 농기계
+                          - generic [ref=e533]: 방제 작업 권장
+                        - generic [ref=e534]: 임대 여부 문의 · 보유 90대
+                    - generic [ref=e535]:
+                      - generic [ref=e536]:
+                        - img [ref=e537]
+                        - text: 전북특별자치도 김제시청 농업기술센터 농촌지원과
+                      - generic [ref=e541]:
+                        - img [ref=e542]
+                        - text: 기준일 2025-07-08
+                    - generic [ref=e546]:
+                      - link "지도에서 보기" [ref=e547] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%B4%89%EB%82%A8%EB%A9%B4%20%EB%82%A8%EC%82%B0%EB%A1%9C%2056
+                        - img [ref=e548]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e550] [cursor=pointer]:
+                        - /url: tel:063-540-2984
+                        - img [ref=e551]
+                        - text: 전화 문의
+              - article [ref=e553]:
+                - generic [ref=e554]:
+                  - generic [ref=e555]:
+                    - generic [ref=e556]: NO.
+                    - generic [ref=e557]: "07"
+                  - generic [ref=e559]:
+                    - generic [ref=e560]:
+                      - heading "군산시농업기술센터 동부" [level=3] [ref=e562]
+                      - generic [ref=e563]:
+                        - generic [ref=e564]: 직선거리
+                        - generic [ref=e565]: 16.1km
+                    - generic [ref=e566]:
+                      - img [ref=e567]
+                      - generic [ref=e570]: 전북특별자치도 군산시 임피면 서원석곡로 584
+                    - generic [ref=e571]:
+                      - generic [ref=e572]:
+                        - generic [ref=e573]:
+                          - generic [ref=e574]: 트랙터 및 작업기
+                          - generic [ref=e575]: 방제 작업 권장
+                        - generic [ref=e576]: 임대 여부 문의 · 보유 78대
+                      - generic [ref=e577]:
+                        - generic [ref=e578]:
+                          - generic [ref=e579]: 관리기 및 작업기
+                          - generic [ref=e580]: 경운/정지 작업 권장
+                        - generic [ref=e581]: 임대 여부 문의 · 보유 20대
+                      - generic [ref=e582]:
+                        - generic [ref=e583]:
+                          - generic [ref=e584]: 땅속작물 수확기
+                          - generic [ref=e585]: 방제 작업 권장
+                        - generic [ref=e586]: 임대 여부 문의 · 보유 11대
+                      - generic [ref=e587]:
+                        - generic [ref=e588]:
+                          - generic [ref=e589]: 탈곡기 및 정선작업기
+                          - generic [ref=e590]: 방제 작업 권장
+                        - generic [ref=e591]: 임대 여부 문의 · 보유 24대
+                      - generic [ref=e592]:
+                        - generic [ref=e593]:
+                          - generic [ref=e594]: 기타 임대 농기계
+                          - generic [ref=e595]: 방제 작업 권장
+                        - generic [ref=e596]: 임대 여부 문의 · 보유 55대
+                    - generic [ref=e597]:
+                      - generic [ref=e598]:
+                        - img [ref=e599]
+                        - text: 군산시농업기술센터
+                      - generic [ref=e603]:
+                        - img [ref=e604]
+                        - text: 기준일 2025-10-14
+                    - generic [ref=e608]:
+                      - link "지도에서 보기" [ref=e609] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B5%B0%EC%82%B0%EC%8B%9C%20%EC%9E%84%ED%94%BC%EB%A9%B4%20%EC%84%9C%EC%9B%90%EC%84%9D%EA%B3%A1%EB%A1%9C%20584
+                        - img [ref=e610]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e612] [cursor=pointer]:
+                        - /url: tel:063-454-5285
+                        - img [ref=e613]
+                        - text: 전화 문의
+              - article [ref=e615]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - generic [ref=e618]: NO.
+                    - generic [ref=e619]: "08"
+                  - generic [ref=e621]:
+                    - generic [ref=e622]:
+                      - heading "정읍시 농기계임대사업소 북부" [level=3] [ref=e624]
+                      - generic [ref=e625]:
+                        - generic [ref=e626]: 직선거리
+                        - generic [ref=e627]: 17.5km
+                    - generic [ref=e628]:
+                      - img [ref=e629]
+                      - generic [ref=e632]: 전북특별자치도 정읍시 신태인읍 감곡로 42
+                    - generic [ref=e633]:
+                      - generic [ref=e634]:
+                        - generic [ref=e635]:
+                          - generic [ref=e636]: 트랙터 및 작업기
+                          - generic [ref=e637]: 방제 작업 권장
+                        - generic [ref=e638]: 임대 여부 문의 · 보유 95대
+                      - generic [ref=e639]:
+                        - generic [ref=e640]:
+                          - generic [ref=e641]: 경운기 및 작업기
+                          - generic [ref=e642]: 경운/정지 작업 권장
+                        - generic [ref=e643]: 임대 여부 문의 · 보유 26대
+                      - generic [ref=e644]:
+                        - generic [ref=e645]:
+                          - generic [ref=e646]: 관리기 및 작업기
+                          - generic [ref=e647]: 경운/정지 작업 권장
+                        - generic [ref=e648]: 임대 여부 문의 · 보유 48대
+                      - generic [ref=e649]:
+                        - generic [ref=e650]:
+                          - generic [ref=e651]: 땅속작물 수확기
+                          - generic [ref=e652]: 방제 작업 권장
+                        - generic [ref=e653]: 임대 여부 문의 · 보유 25대
+                      - generic [ref=e654]:
+                        - generic [ref=e655]:
+                          - generic [ref=e656]: 탈곡기 및 정선작업기
+                          - generic [ref=e657]: 방제 작업 권장
+                        - generic [ref=e658]: 임대 여부 문의 · 보유 21대
+                      - generic [ref=e659]:
+                        - generic [ref=e660]:
+                          - generic [ref=e661]: 기타 임대 농기계
+                          - generic [ref=e662]: 방제 작업 권장
+                        - generic [ref=e663]: 임대 여부 문의 · 보유 42433대
+                    - generic [ref=e664]:
+                      - generic [ref=e665]:
+                        - img [ref=e666]
+                        - text: 전북특별자치도 정읍시청
+                      - generic [ref=e670]:
+                        - img [ref=e671]
+                        - text: 기준일 2026-01-01
+                    - generic [ref=e675]:
+                      - link "지도에서 보기" [ref=e676] [cursor=pointer]:
+                        - /url: https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%95%EC%9D%8D%EC%8B%9C%20%EC%8B%A0%ED%83%9C%EC%9D%B8%EC%9D%8D%20%EA%B0%90%EA%B3%A1%EB%A1%9C%2042
+                        - img [ref=e677]
+                        - text: 지도에서 보기
+                      - link "전화 문의" [ref=e679] [cursor=pointer]:
+                        - /url: tel:063-539-6292
+                        - img [ref=e680]
+                        - text: 전화 문의
