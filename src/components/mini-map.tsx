@@ -51,7 +51,7 @@ export function MiniMap({
 
         // VWorld base map
         const vworldBaseLayer = leaflet.tileLayer(
-          "http://xdworld.vworld.kr:8080/2d/Base/service/{z}/{x}/{y}.png",
+          "https://xdworld.vworld.kr/2d/Base/service/{z}/{x}/{y}.png",
           { maxZoom: 19 },
         );
 
